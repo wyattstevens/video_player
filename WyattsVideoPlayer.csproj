@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\**" />
+    <Compile Remove="media\**" />
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Images\**" />
+    <EmbeddedResource Remove="media\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="Images\**" />
+    <None Remove="media\**" />
+    <None Remove="NewFolder\**" />
+    <Page Remove="Images\**" />
+    <Page Remove="media\**" />
+    <Page Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="block_button.png" />
+    <None Remove="dont_loop_button.png" />
+    <None Remove="fast_forward.png" />
+    <None Remove="fast_forward_2.png" />
+    <None Remove="fast_forward_4.png" />
+    <None Remove="loop_button.png" />
+    <None Remove="loop_button_grey.png" />
+    <None Remove="mute_button.png" />
+    <None Remove="open_button.png" />
+    <None Remove="pause_button.png" />
+    <None Remove="play_button.png" />
+    <None Remove="plus_button.png" />
+    <None Remove="plus_icon.png" />
+    <None Remove="Resources\Images\block_button.png" />
+    <None Remove="Resources\Images\dont_loop_button.png" />
+    <None Remove="Resources\Images\fast_forward.png" />
+    <None Remove="Resources\Images\fast_forward_2.png" />
+    <None Remove="Resources\Images\fast_forward_4.png" />
+    <None Remove="Resources\Images\loop_button.png" />
+    <None Remove="Resources\Images\loop_button_grey.png" />
+    <None Remove="Resources\Images\mute_button.png" />
+    <None Remove="Resources\Images\open_button.png" />
+    <None Remove="Resources\Images\pause_button.png" />
+    <None Remove="Resources\Images\play_button.png" />
+    <None Remove="Resources\Images\plus_button.png" />
+    <None Remove="Resources\Images\plus_icon.png" />
+    <None Remove="Resources\Images\restart_button.png" />
+    <None Remove="Resources\Images\restart_button2.png" />
+    <None Remove="Resources\Images\stop_button.png" />
+    <None Remove="Resources\Images\unmute_button.png" />
+    <None Remove="restart_button.png" />
+    <None Remove="restart_button2.png" />
+    <None Remove="stop_button.png" />
+    <None Remove="unmute_button.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\block_button.png" />
+    <Resource Include="Resources\Images\dont_loop_button.png" />
+    <Resource Include="Resources\Images\fast_forward.png" />
+    <Resource Include="Resources\Images\fast_forward_2.png" />
+    <Resource Include="Resources\Images\fast_forward_4.png" />
+    <Resource Include="Resources\Images\loop_button.png" />
+    <Resource Include="Resources\Images\loop_button_grey.png" />
+    <Resource Include="Resources\Images\mute_button.png" />
+    <Resource Include="Resources\Images\open_button.png" />
+    <Resource Include="Resources\Images\pause_button.png" />
+    <Resource Include="Resources\Images\play_button.png" />
+    <Resource Include="Resources\Images\plus_button.png" />
+    <Resource Include="Resources\Images\plus_icon.png" />
+    <Resource Include="Resources\Images\restart_button.png" />
+    <Resource Include="Resources\Images\restart_button2.png" />
+    <Resource Include="Resources\Images\stop_button.png" />
+    <Resource Include="Resources\Images\unmute_button.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="WyattsVideoPlayer\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="WyattsVideoPlayer.sln" />
+  </ItemGroup>
+
+</Project>
